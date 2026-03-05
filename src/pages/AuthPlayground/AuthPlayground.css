@@ -1,0 +1,61 @@
+.auth-playground {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.auth-playground__header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #0f172a;
+}
+
+.auth-playground__header p {
+  margin: 0.4rem 0 0;
+  color: #475569;
+}
+
+.auth-playground__panel {
+  border: 1px solid #d2dceb;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 10px 30px rgba(11, 22, 44, 0.05);
+}
+
+.auth-playground__panel h2 {
+  margin: 0 0 0.8rem;
+  color: #1e293b;
+}
+
+.auth-playground__success {
+  margin-top: 0.75rem;
+  color: #0f766e;
+}
+
+.auth-playground__empty {
+  margin-top: 0.75rem;
+  color: #64748b;
+}
+
+.auth-playground__error {
+  border: 1px solid #fca5a5;
+  background: #fff1f2;
+  color: #9f1239;
+  border-radius: 10px;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-playground__error button {
+  border: 0;
+  border-radius: 6px;
+  padding: 0.5rem 0.8rem;
+  color: #fff;
+  background: #9f1239;
+  cursor: pointer;
+}

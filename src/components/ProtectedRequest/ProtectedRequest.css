@@ -1,0 +1,51 @@
+.protected-request {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.protected-request h2 {
+  margin: 0;
+  color: #172b4d;
+}
+
+.protected-request p {
+  margin: 0;
+  color: #4b5d79;
+}
+
+.protected-request textarea {
+  min-height: 7rem;
+  border: 1px solid #c7d3e0;
+  border-radius: 8px;
+  padding: 0.6rem;
+  resize: vertical;
+}
+
+.protected-request button {
+  justify-self: start;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  background: #0d7763;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.protected-request button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.protected-request pre {
+  margin: 0;
+  border: 1px solid #d6deea;
+  border-radius: 8px;
+  padding: 0.75rem;
+  background: #f7f9fc;
+  overflow: auto;
+}
+
+.protected-request__empty {
+  color: #6b7280;
+}

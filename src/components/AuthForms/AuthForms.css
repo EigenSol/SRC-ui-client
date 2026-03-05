@@ -1,0 +1,43 @@
+.auth-forms {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.auth-forms label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #172b4d;
+}
+
+.auth-forms input {
+  border: 1px solid #c7d3e0;
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+  font-size: 0.95rem;
+}
+
+.auth-forms input:focus {
+  outline: 2px solid #5b7cff;
+  border-color: #5b7cff;
+}
+
+.auth-forms__actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.auth-forms button {
+  border: 0;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  background: #1a3a8f;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-forms button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

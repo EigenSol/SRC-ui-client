@@ -40,3 +40,5 @@ docker compose up --build
 `npm run dev` writes run output to:
 
 `logs/DD-mon-YYYY/HH-00/HH-mm-ss.log`
+
+<!-- check 1788824040552 -->
